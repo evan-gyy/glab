@@ -1,0 +1,16 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+	<view class="userinfo">
+		<image class="avatar" src="/public/icon/glab.jpg"></image>
+		<view class="title">GLab {{wx.getAccountInfoSync().miniProgram.version}}</view>
+  </view>
+	<view class="line"></view>
+	<view class="info-list">
+		<view class="title">作者</view>
+		<view class="name" bindtap="copyText" data-text="{{author}}">{{author}}</view>
+		<view class="title">联系方式</view>
+		<view class="name" bindtap="copyText" data-text="{{email}}">{{email}}</view>
+		<image class="img" src="/public/icon/github.png"></image>
+		<view class="name" bindtap="copyText" data-text="{{github}}">{{github}}</view>
+	</view>
+</view>

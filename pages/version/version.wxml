@@ -1,0 +1,17 @@
+<!--pages/version/version.wxml-->
+<view class="card-list">
+		<view class="card">
+			<view class="subtitle">v1.0.1</view>
+			<view class="feature">• 新增：我的-历史版本</view>
+			<view class="feature">• 新增：我的-关于</view>
+			<view class="feature">• 修复：无法分享的问题</view>
+			<view class="feature">• 修复：导航栏标题显示错误的问题</view>
+		</view>
+		<view class="card">
+			<view class="subtitle">v1.0.0</view>
+			<view class="feature">• 新增：罕见盒</view>
+			<view class="feature">• 新增：导航栏-首页</view>
+			<view class="feature">• 新增：导航栏-我的</view>
+		</view>
+		
+	</view>

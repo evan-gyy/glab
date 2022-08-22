@@ -1,0 +1,47 @@
+/* pages/about/about.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	color: #aaa;
+	margin: 100rpx 0 80rpx;
+}
+
+.avatar {
+  overflow: hidden;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.line {
+	background: #828181;
+	height: 4rpx;
+	margin: 0 120rpx 30rpx;
+}
+
+.title {
+	color: rgb(97, 96, 96);
+	/* font-weight: bold; */
+	font-size: 40rpx;
+	margin-top: 10rpx;
+}
+
+.info-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-list .title {
+	margin: 40rpx;
+}
+
+.name {
+	font-size: 35rpx;
+}
+
+.img {
+	margin: 40rpx;
+  width: 60rpx;
+  height: 60rpx;
+}

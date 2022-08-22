@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+		<image class="avatar" src="/public/icon/glab.jpg"></image>
+		<view class="title">G-Lab</view>
+  </view>
+	<view class="card-list">
+		<view class="card">
+			<view class="subtitle">来点盒子</view>
+			<view class="item-list">
+				<view class="item" bindtap="redirect" data-nid="0">
+					<image src="/public/image/dxl.jpg"></image>
+					<view class="name">罕见盒</view>
+				</view>
+				<view class="item">
+					<image src="/public/icon/unknown.png"></image>
+					<view class="name">纯真盒</view>
+				</view>
+				<view class="item">
+					<image src="/public/icon/unknown.png"></image>
+					<view class="name">小盒梓</view>
+				</view>
+				<view class="item">
+					<image src="/public/icon/unknown.png"></image>
+					<view class="name">鲨鱼盒</view>
+				</view>
+			</view>
+		</view>
+		<!-- <view class="card">
+			<view class="subtitle">来点...</view>
+		<view class="tips">施工中...</view>
+		</view> -->
+	</view>
+	
+	
+</view>

@@ -1,0 +1,36 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/logs/logs",
+		"pages/my/my",
+		"pages/hanjian/hanjian",
+		"pages/about/about",
+		"pages/version/version"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#E6E6FA",
+		"navigationBarTitleText": "首页",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "public/icon/home.png",
+				"selectedIconPath": "public/icon/home.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "public/icon/log.png",
+				"selectedIconPath": "public/icon/log.png"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"lazyCodeLoading": "requiredComponents"
+}

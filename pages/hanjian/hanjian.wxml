@@ -1,0 +1,155 @@
+<!--pages/hanjian/hanjian.wxml-->
+<view class="container">
+  <view class="userinfo">
+		<image class="avatar" src="/public/image/dxl.jpg"></image>
+		<view class="title">罕见盒</view>
+  </view>
+	<view class="bottom">
+		<button class="bottom-btn" plain="true" bindtap="stop" style="background-color: rgb(183,181,211); opacity: 0.9;border-width: 0;width: 250rpx;color: rgb(46, 46, 50);">停止播放</button>
+	</view>
+	<view class="card-list">
+		<view class="card">
+			<view class="subtitle">来点罕见</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="11">谁</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="12">罕</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="13">见</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="14">啊</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="21">骂</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="22">谁</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="23">罕</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="24">见</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="25">呢</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="31">吸气————</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="41">骂!!!</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="42">谁!!!</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="43">罕!!!</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="44">见!!!</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="61">谁罕见啊</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="62">骂谁罕见呢</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="63">骂谁罕见！！！</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="51">你罕见吗？</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="52">我确实罕见</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="hjxhc">罕见见小火车</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="ghj">天上掉下个狗罕见</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="sdxfp">罕见旋风劈</button>
+			</view>
+		</view>
+		<view class="card">
+			<view class="subtitle">来点藏话</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="71">你怎么说藏话呀</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="81">四连击</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="82">你是谁</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="83">ybb</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="101">沙贝</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="102">去活吧</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="103">我爱你</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="91">我的马呢</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="92">我没马吧</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="111">我是你叠</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="112">不认识了</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="121">我去世了</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="122">举办婚礼</button>
+			</view>
+		</view>
+		<view class="card">
+			<view class="subtitle">来点奖励</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="130">我是狗</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="131">蓄力中</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="132">嗷↗</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="133">嗷↘</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="134">嘻嘻</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="141">嗷</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="142">嗷</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="143">嗷</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="144">嗷</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="151">对不起吗</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="152">对不起嘛</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="161">奖励</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="162">mua</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="163">muamua</button>
+			</view>
+		</view>
+		<view class="card">
+			<view class="subtitle">来点b动静</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="201">呵呵哈哈呵呵哈呵</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="202">呵呵呵哈</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="203">呼吸练习</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="211">救命啊——</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="212">bt啊——</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="213">菲力啊——</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="214">南通啊——</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="221">凭什么啊</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="222">你羁绊谁啊</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="231">啊啊啊啊你好烦啊</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="232">我东雪莲</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="233">哈哈哈呵</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="234">啊呜呜呜</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="235">你正常点</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5; width: 100%;" bindtap="play" data-nid="241">我不想播了呜呜呜呜</button>
+			</view>
+			<view class="button-list">
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="242">哼哼哼哼</button>
+				<button style="margin: 10rpx;font-size: 30rpx;font-weight: normal;background-color: #eff0f5;" bindtap="play" data-nid="243">呜呜呜呜</button>
+			</view>
+		</view>
+		<button bindtap="clearStorage" style="width: 92%;border-radius: 15rpx;background-color: #fc6061;margin-bottom: 15rpx;opacity: 0.8;">清除缓存</button>
+		<view class="blank"></view>
+	</view>
+	
+</view>

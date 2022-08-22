@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="avatar" src="/public/icon/head.png"></image>
+		<view class="title">你的名字</view>
+  </view>
+	<view class="line"></view>
+	<view class="row" bindtap="redirect" data-page="version">
+		<view class="name">历史版本</view>
+		<image src="/public/icon/right.png"></image>
+	</view>
+	<view class="line"></view>
+	<view class="row" bindtap="redirect" data-page="about">
+		<view class="name">关于</view>
+		<image src="/public/icon/right.png"></image>
+	</view>
+	<view class="line"></view>
+</view>
